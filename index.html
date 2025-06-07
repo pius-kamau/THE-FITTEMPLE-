@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The FitTemple</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="navbar">
+                <div class="left-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Programs</a>
+                </div>
+                <div class="logo">
+                    <img src="IMAGES/logo.JPG" alt="Logo">
+                </div>
+                <div class="right-nav">
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#resources">Resources</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+        <!-- Mobile menu dropdown -->
+        <div class="mobile-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Programs</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#resources">Resources</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+    <section id="home">
+        <div class="card1">
+            <h1>Elevate Your Fitness Journey</h1>
+            <p>
+                Optimize your workouts with science,<br>
+                backed recovery strategies.
+            </p>
+            <a href="#html">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="card2">
+            <div class="card2a">
+                <p>GETTING STARTED</p>
+                <h1>
+                    Transform Your Body<br>with Expert Training <br> and Smarter Nutrition
+                </h1>
+                <p class="p">
+                    At The FitTemple, we combine expert training and smart nutrition ,<br>
+                    to help you reach your goals faster and healthier<br> From strength workouts to personalized meal
+                    plans, <br>we’re here to guide you
+                    every step of the way.
+                </p>
+                <a href="#html">Start Learning</a>
+            </div>
+
+            <div class="card2b">
+                <img src="IMAGES\pngegg qw.png" alt="nutriotion and fitness">
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="card3">
+            <p>SERVICES</p>
+            <h1>Your Journey to<br>Starts Here</h1>
+            <p class="p">
+                Unleash your potential with focused training,<br>
+                real results, and expert support.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="card4">
+            <div class="card4a">
+                <h1>Nutritional<br>Coaching</h1>
+                <p>
+                    Our Nutritional Coaching program empowers you with the knowledge and support to<br>
+                    make smarter food choices and build lasting habits.<br>
+                    We’ll help you understand the science behind nutrition and how it impacts your body.
+                </p>
+                <a href="#html">Learn more</a>
+            </div>
+            <div class="card4b">
+                <h1>Group <br>Classes</h1>
+                <p>
+                    Experience the energy and motivation of our Group Classes,<br>
+                    designed to challenge and inspire all fitness levels. Led by expert instructors,<br>
+                    each session combines fun, intensity, and community to keep you moving toward your goals.<br>
+                    From HIIT to yoga, we have a class for everyone.
+
+                </p>
+                <a href="#projects">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="therapists">
+        <div class="card5">
+            <div class="card5-row">
+                <div class="card5-text">
+                    <h1>One on One Training</h1>
+                    <p>
+                        Get dedicated support and customized guidance tailored to your goals.<br>
+                        Work directly with a professional for focused,<br>
+                        personalized training sessions that fit your schedule and needs.
+                    </p>
+                    <p>
+                        Our training approach focuses on hands-on,<br>
+                        personalized workouts that quickly build your strength,<br>
+                        endurance, and confidence. We’ll help you set realistic goals,<br>
+                    </p>
+                    <a href="#projects">Learn more</a>
+                </div>
+
+                <div class="card5-image">
+                    <img src="IMAGES\pngegg.png" alt="Trainer with client">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="testimonials-section">
+            <!-- Header Section - Now on the left -->
+            <div class="section-header">
+                <h4>TESTIMONIALS</h4>
+                <h2>What Our Members Are Saying</h2>
+                <p>Real stories from individuals who transformed their lives through our fitness programs and support.
+                </p>
+                <div class="nav-arrows">
+                    <button class="nav-arrow" id="prev-btn" aria-label="Previous testimonial">←</button>
+                    <button class="nav-arrow" id="next-btn" aria-label="Next testimonial">→</button>
+                </div>
+            </div>
+
+            <!-- Testimonial Cards - Now on the right -->
+            <div class="testimonials-container" id="testimonials-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"Joining this gym was the best decision I made this year. I’ve lost
+                            15 pounds, gained muscle, and feel more confident than ever!"</p>
+                        <div class="author-info">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Emily" class="avatar">
+                            <div class="author-details">
+                                <p class="testimonial-author">Emily R.</p>
+                                <p class="author-role">29 years old</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card dark">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"The trainers here are incredible. I’ve never felt more supported in
+                            my fitness journey. The customized plans helped me stay motivated and hit my goals."</p>
+                        <div class="author-info">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Jason" class="avatar">
+                            <div class="author-details">
+                                <p class="testimonial-author">Jason M.</p>
+                                <p class="author-role">37 years old</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"I was nervous about starting at a gym, but the community here is so
+                            welcoming. I've built strength, improved my posture, and made great friends."</p>
+                        <div class="author-info">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Lena" class="avatar">
+                            <div class="author-details">
+                                <p class="testimonial-author">Lena K.</p>
+                                <p class="author-role">26 years old</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card dark">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"As a busy professional, the 24/7 access and online coaching options
+                            have been a game changer. I’m fitter, stronger, and more energized every day."</p>
+                        <div class="author-info">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Chris" class="avatar">
+                            <div class="author-details">
+                                <p class="testimonial-author">Chris D.</p>
+                                <p class="author-role">34 years old</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners-section">
+        <div class="partners-container">
+
+            <div class="carousel-box">
+                <div class="carousel-header">
+
+                    <h2 class="section-title">Our Partners</h2>
+                </div>
+                <div class="partners-carousel">
+                    <div class="partners-track">
+                        <!-- Original Partner Items -->
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                                <img src="IMAGES\kop logo.png" alt="Wealthsimple">
+                            </div>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                                <img src="IMAGES\image-removebg-preview (1).png" alt="Notion">
+                            </div>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                                <img src="IMAGES\image-removebg-preview.png" alt="Medium">
+                            </div>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                                <img src="IMAGES\Planet-Fitness-Logo.png" alt="Drage">
+                            </div>
+                        </div>
+                        <div class="partner-item">
+                            <div class="partner-logo">
+                                <img src="IMAGES\gym logo.png" alt="SONOS">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
+</section>
+
+<section id="resources">
+    <div class="card8">
+        <section id="resources">
+    </div>
+</section>
+
+<section>
+    <section id="services">
+        <div class="card3">
+            <p>EXPLORE & LEARN</p>
+            <h1>Resources for <br>Your Well-being</h1>
+            <p class="p">
+                Explore expert advice, training programs, nutrition tips,<br>
+                and tools to support every aspect of your health—strength, endurance, flexibility, and recovery.
+            </p>
+        </div>
+    </section>
+    <div class="card9">
+        <div class="card9a">
+            <h1>Articles & <br>Guides</h1>
+            <p>
+                Quick tips on workout techniques,nutrition <br>
+                advice,& common beginner fitness mistakes.
+            </p>
+            <a href="#resources">Explore</a>
+        </div>
+
+        <div class="card9b">
+            <h1>Interactive <br>Examples</h1>
+            <p>
+                Live workout demos you can follow<br>
+                to learn by moving not just watching.
+            </p>
+            <a href="#projects">Explore</a>
+        </div>
+
+        <div class="card9c">
+            <h1>Workshops & <br>Challenges</h1>
+            <p>
+                Level up with coding challenges<br>
+                and live workshops for real-time learning.
+            </p>
+            <a href="#quizzes">Explore</a>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="card10">
+        <div class="card10-content">
+            <p class="card10-label">COMMUNITY</p>
+            <h1 class="card10-heading">You’re Not Alone<br>on This Journey</h1>
+            <p class="card10-text">
+                Connect with others, share experiences,<br>
+                and find encouragement in a safe,<br>
+                supportive space.
+            </p>
+            <a href="#contact" class="card10-button">Join The Community</a>
+        </div>
+        <div class="card10-image">
+            <img src="IMAGES\0-769_fitness-family-png-adults-at-the-gym.png" alt="Community Illustration">
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="card11"></div>
+
+    <div class="card11b">
+        <div class="card11b1">
+            <div class="card11a">
+                <p>NEED HELP?</p>
+                <h1>Frequently <br>Asked Questions</h1>
+                <p>Find answers to common questions about<br>
+                    workouts, nutrition, and getting started with your fitness journey.</p>
+            </div>
+            <img src="IMAGES\pngeggq.png" alt="Help and support">
+        </div>
+
+        <div class="faq-container">
+            <details>
+                <summary>Do I need any experience to start?</summary>
+                <div class="faq-content">Not at all! Our gym welcomes all fitness levels, from beginners to athletes.
+                </div>
+            </details>
+            <details>
+                <summary>What are your membership plans?</summary>
+                <div class="faq-content">We offer monthly, quarterly, and yearly memberships to suit different needs and
+                    budgets.</div>
+            </details>
+            <details>
+                <summary>Are there personal trainers available?</summary>
+                <div class="faq-content">Yes! Certified personal trainers are available to help you reach your fitness
+                    goals.</div>
+            </details>
+            <details>
+                <summary>What are your opening hours?</summary>
+                <div class="faq-content">We’re open Monday to Sunday from 5 AM to 11 PM, including most holidays.</div>
+            </details>
+            <details>
+                <summary>Do you offer group classes?</summary>
+                <div class="faq-content">Absolutely! We have a variety of group classes like yoga, spinning, HIIT, and
+                    more.</div>
+            </details>
+            <details>
+                <summary>How can I get support or ask questions?</summary>
+                <div class="faq-content">You can talk to our front desk team anytime during open hours or contact us
+                    online.</div>
+            </details>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card12">
+        <p>GET IN TOUCH</p>
+        <h1>We're Here to Support<br> Your Fitness Journey</h1>
+        <p>
+            Whether you're just starting out, have questions about our facilities,<br>
+            or need guidance reaching your goals — we're here for you every step of the way. Reach out anytime!
+        </p>
+    </div>
+    <div class="contact-section">
+        <!-- Decorative elements -->
+        <div class="decor-circle decor-circle-top"></div>
+        <div class="decor-circle decor-circle-bottom"></div>
+
+        <div id="contact-content" class="contact-content">
+            <!-- Left Column - Contact Info -->
+            <div class="contact-info">
+                <div class="info-card">
+
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <h3 class="info-title">
+                                Contact Details
+                            </h3>
+                            <div class="info-details">
+                                <p><img src="IMAGES\email.png" alt="Email" class="custom-icon"> support@thefittemple.com
+                                </p>
+                                <p><img src="IMAGES\phone.png" alt="Phone" class="custom-icon"> +1 (254) 456-7890</p>
+                                <p><img src="IMAGES\location.png" alt="Location" class="custom-icon"> 254 Moi Avenue,
+                                    Nairobi City, Ke 00100</p>
+                            </div>
+                            <p class="response-time">
+                                We typically respond within 12 hours.
+                            </p>
+                            <!-- Social Media Icons with PNG -->
+                            <div class="social-media">
+                                <a href="https://www.facebook.com/login/device-based/login/" target="_blank"
+                                    rel="noopener noreferrer" title="Facebook">
+                                    <img src="IMAGES\facebook.png" alt="Facebook" class="social-icon">
+                                </a>
+                                <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer"
+                                    title="X (Twitter)">
+                                    <img src="IMAGES\x.png" alt="Twitter" class="social-icon">
+                                </a>
+                                <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer"
+                                    title="Instagram">
+                                    <img src="IMAGES\insta.png" alt="Instagram" class="social-icon">
+                                </a>
+                                <a href="https://tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer"
+                                    title="TikTok">
+                                    <img src="IMAGES\tik.png" alt="TikTok" class="social-icon">
+                                </a>
+                                <a href="https://youtube.com/yourchannel" target="_blank" rel="noopener noreferrer"
+                                    title="YouTube">
+                                    <img src="IMAGES\you.png" alt="YouTube" class="social-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Right Column - Contact Form -->
+            <div class="contact-form">
+                <div class="form-card">
+                    <h3 class="form-title">
+                        <i class="fas fa-paper-plane"></i> Send Us a Message
+                    </h3>
+                    <!-- Fixed form with novalidate and proper submission handling -->
+                    <form id="contact-form" novalidate onsubmit="event.preventDefault(); handleFormSubmit();">
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Success Message (hidden by default) -->
+        <div id="success-message" class="success-message">
+            <div class="success-header"></div>
+            <i class="fas fa-check-circle success-icon"></i>
+            <h3>Message Sent Successfully!</h3>
+            <p class="success-text">Thank you for contacting us. Our team will review your message and get back to you
+                within 12 hours. We appreciate you reaching out!</p>
+            <button onclick="resetForm()" class="success-btn">
+                <i class="fas fa-undo"></i> Send Another Message
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</section>
+
+
+
+<section id="footer">
+    <div class="footer">
+        <div class="footerCard1">
+            <h1>WebSkills</h1>
+            <div class="footerItems">
+                <ul class="footericons">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Programs</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="footerlinks">
+                    <a href="https://www.facebook.com/login/device-based/login/" target="_blank"
+                        rel="noopener noreferrer" title="Facebook">
+                        <p>Facebook</p>
+                    </a>
+                    <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer"
+                        title="X (Twitter)">
+                        <p>Instagram</p>
+                    </a>
+                    <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer"
+                        title="Instagram">
+                        <p>YouTube</p>
+                    </a>
+                    <a href="https://tiktok.com/@yourusername" target="_blank" rel="noopener noreferrer" title="TikTok">
+                        <p>LinkedIn</p>
+                    </a>
+
+                </div>
+            </div>
+            <p class="copy">&copy; 2025 All rights reserved</p>
+        </div>
+        <div class="footerCard2">
+            <h1>
+                Train Hard,<br>Stay Focused,<br>Live Balanced.
+            </h1>
+            <button onclick="location.href='#contact'">Start Learning Now</button>
+        </div>
+    </div>
+</section>
+</body>
+
+</html>
